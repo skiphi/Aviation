@@ -7,7 +7,7 @@ import DottedWorldMap from "./DottedWorldMap";
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
 const FRAME = (i: number) =>
-  `/ezgif-23b10fd2460e2809-png-split/ezgif-frame-${String(i).padStart(3, "0")}.png`;
+  `${import.meta.env.BASE_URL}ezgif-23b10fd2460e2809-png-split/ezgif-frame-${String(i).padStart(3, "0")}.png`;
 
 type Service = {
   n: string;

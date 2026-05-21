@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { Menu, X } from "lucide-react";
 
 const FRAME_COUNT = 300;
-const FRAME_DIR = "/ezgif-23b10fd2460e2809-png-split";
+const FRAME_DIR = `${import.meta.env.BASE_URL}ezgif-23b10fd2460e2809-png-split`;
 const PRELOAD_CONCURRENCY = 6;
 
 const NAV_ITEMS = ["Start", "Story", "Rates", "Benefits", "FAQ"] as const;
